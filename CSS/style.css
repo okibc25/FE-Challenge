@@ -54,8 +54,6 @@ body{
   font-family: 'Roboto';
   width: 414px;
   padding-left: 10px;
-
-
 }
 
 h1{
@@ -101,6 +99,8 @@ p {
   text-align: center;
   font-size: 16px;
 }
+
+/*
 .block {
   background: #fff;
   height: 75px;
@@ -112,7 +112,12 @@ p {
   display: inline-block;
   vertical-align: middle;
   height: 100%;
+} */
+
+.direction {
+  padding-bottom: 20px;
 }
+/*
 .route{
   display: inline-block;
   vertical-align: middle;
@@ -125,6 +130,8 @@ p {
   vertical-align: middle;
   padding: 5px 25px;
 }
+*/
+
 
 .arrow-left {
  position: fixed;
