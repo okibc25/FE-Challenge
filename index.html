@@ -33,20 +33,30 @@
         <h2>Eastbound</h2>
       </div>
       <hr>
-        <div class="block">
-            <div class="numberCircle"> 60 </div>
-            <div class="route"><h3> Randolph/Harbor Dr.</h3></div>
-            <div class="frequency">8:20</div>
+        <ul class="block">
+            <li class="numberCircle"> 60 </li>
+            <li class="route">Randolph/Harbor Dr.
+              <ul>
+                <li class="frequency"> Runs every 20 min.</li>
+              </ul>
+            </li>
+            <li class="arrival"> Arr @ 8:20</li>
+            </ul>
             <div class="arrow-right">
                <i class="fa fa-chevron-right fa" aria-hidden="true"></i>
           </div>
         </div>
       <hr>
 
-          <div class="block">
-            <div class="numberCircle"> 124</div>
-            <div class= "route"> <h3> Navy Pier</h3></div>
-            <div class="frequency">8:10</div>
+          <ul class="block">
+            <li class="numberCircle"> 124</li>
+            <li class="route">Navy Pier
+              <ul>
+            <li class="frequency">Runs every 10 min.</li>
+          </ul>
+            </li>
+            <li class="arrival"> Arr @ 8:10</li>
+        </ul>
             <div class="arrow-right">
               <i class="fa fa-chevron-right fa" aria-hidden="true"></i>
           </div>
@@ -57,10 +67,14 @@
         <h2>Northbound</h2>
         </div>
         <hr>
-           <ul>
-             <li><div class="numberCircle"> 151</div></li>
-             <li><h3> Devon/Clark</h3></li>
-             <li>8:25</li>
+           <ul class="block">
+             <li class="numberCircle"> 151</li>
+             <li class="route"> Devon/Clark
+               <ul>
+                 <li class="frequency"> Runs every 16 min.</li>
+                 </ul>
+             </li>
+             <li class="arrival"> Arr @ 8:25</li>
            </ul>
                <div class="arrow-right">
                  <i class="fa fa-chevron-right fa" aria-hidden="true"></i>
@@ -73,14 +87,14 @@
           <h2>Southbound</h2>
         </div>
         <hr>
-          <!-- <div class="block">
-              <div class="numberCircle"> J14</div>
-                <div class="route"><h3> 103/Stony Island</h3></div>
-                  <div class="frequency"> 8:30</div> -->
-                  <ul>
+                  <ul class="block">
                     <li><div class="numberCircle"> J14</div></li>
-                    <li><h3> 103/Stony Island</h3>
-                    <li id="frequency"> 8:30</li>
+                    <li class="route">103/Stony Island
+                      <ul>
+                        <li class="frequency"> Runs every 15 min.</li>
+                      </ul>
+                    </li>
+                    <li class="arrival"> Arr @ 8:30</li>
                   </ul>
                     <div class="arrow-right">
                      <i class="fa fa-chevron-right fa" aria-hidden="true"></i>
@@ -88,10 +102,15 @@
                 </div>
               <hr>
 
-            <div class="block">
-               <div class="numberCircle"> 124</div>
-                <div class="route"><h3> Navy Pier</h3></div>
-                  <div class="frequency">8:27</div>
+            <ul class="block">
+               <li class="numberCircle"> 124</li>
+               <li class="route"> Navy Pier
+                 <ul>
+                   <li class="frequency"> Runs every 10 min</li>
+                 </ul>
+               </li>
+               <li class="arrival"> Arr @ 8:27</li>
+           </ul>
                     <div class="arrow-right">
                      <i class="fa fa-chevron-right fa" aria-hidden="true"></i>
                </div>
@@ -102,10 +121,15 @@
         <h2>Reroute</h2>
          </div>
           <hr>
-            <div class="block">
-               <div class="numberCircle"> 6x</div>
-                  <div class="route"><h3> Jackson Park Express</h3></div>
-                    <div class="frequency"> NA</div>
+            <ul class="block">
+               <li class="numberCircle"> 6x</div>
+               <li class="route">Jackson Park Express
+                 <ul>
+                   <li class="frequency"> NA</li>
+                 </ul>
+               </li>
+               <li class="arrival"> NA</li>
+             </ul>
                      <div class="arrow-right">
                        <i class="fa fa-chevron-right fa" aria-hidden="true"></i>
                </div>
@@ -116,29 +140,47 @@
         <h2>Out of Service</h2>
         </div>
         <hr>
-             <div class="block">
-                <div class="numberCircle"> 4</div>
-                   <div class="route"><h3>Cottage Grove</h3></div>
-                    <div class="frequency"> 12:10 </div>
+             <ul class="block">
+              <li class="numberCircle"> 4</li>
+              <li class="route">Cottage Grove
+                <ul>
+                <li class="frequency"> Res svc @ 12:10 am</li>
+            </ul>
+           </li>
+              <li class="frequency"> Res svc @ 12:10 am</li>
+          </ul>
+              </li>
+              <li class="arrival"> Arr @ 12:10</li>
+          </ul>
                      <div class="arrow-right">
                       <i class="fa fa-chevron-right fa" aria-hidden="true"></i>
                 </div>
               </div>
           <hr>
 
-              <div class="block">
-                <div class="numberCircle"> 20</div>
-                  <div class="route"><h3>Madison</h3></div>
-                    <div class="frequency"> 12:10 am</div>
+              <ul class="block">
+                <li class="numberCircle"> 20</li>
+                <li class="route">Madison
+                  <ul>
+                    <li class="frequency"> Res svc @ 12:10 am</li>
+                  </ul>
+                </li>
+                <li class="arrival"> NA</li>
+              </ul>
                      <div class="arrow-right">
                       <i class="fa fa-chevron-right fa" aria-hidden="true"></i>
                   </div>
                 </div>
             <hr>
-               <div class="block">
-                 <div class="numberCircle"> 157</div>
-                    <div class="route"><h3>Streeterville/Taylor</h3></div>
-                        <div class="frequency"> 6:00 am</div>
+               <ul class="block">
+                 <li class="numberCircle">157</li>
+                 <li class="route">Streeterville/Taylor
+                   <ul>
+                      <li class="frequency"> Res svc @ 6:00 am</li>
+                    </ul>
+                  </li>
+                 <li class="arrival"> NA</li>
+                </ul>
                       <div class="arrow-right">
                    <i class="fa fa-chevron-right fa" aria-hidden="true"></i>
                    </div>

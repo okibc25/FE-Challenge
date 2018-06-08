@@ -14,7 +14,7 @@
 .searchTerm {
   float: left;
   width: 90%;
-  border: 3px solid #999;
+  border: 2px solid #999;
   padding: 5px;
   height: 36px;
   border-radius: 20px;
@@ -52,16 +52,23 @@
 body{
   background-color: #fff;
   font-family: 'Roboto';
-  width: 414px;
+  width: 415px;
   padding-left: 10px;
 }
 
+ul{
+  list-style-type: none;
+  width: 100%;
+}
+
+
 h1{
-  text-align: center;
-  padding-top: 80px;
-  padding-bottom: 75px;
+  font-weight:bold;
   font-size: 30px;
   color: #555;
+  letter-spacing: -2.41%;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 h2{
@@ -85,14 +92,12 @@ p {
 }
 
 
-
 .numberCircle {
   border-radius: 50%;
   border-top-style: ;
   width: 45px;
   height: 45px;
   padding: 12px;
-  padding-left: 9px;
   background: #999;
   color: #fff;
   display:inline-block;
@@ -100,7 +105,7 @@ p {
   font-size: 16px;
 }
 
-/*
+
 .block {
   background: #fff;
   height: 75px;
@@ -112,12 +117,12 @@ p {
   display: inline-block;
   vertical-align: middle;
   height: 100%;
-} */
+}
 
 .direction {
   padding-bottom: 20px;
 }
-/*
+
 .route{
   display: inline-block;
   vertical-align: middle;
@@ -130,14 +135,12 @@ p {
   vertical-align: middle;
   padding: 5px 25px;
 }
-*/
 
 
 .arrow-left {
  position: fixed;
  display: inline;
  float: left;
- top: 25px;
  width: 1%;
  color: #777;
 }
