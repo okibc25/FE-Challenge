@@ -9,6 +9,7 @@
   position: relative;
   padding-top: 10px;
   padding-bottom: 50px;
+
 }
 
 .searchTerm {
@@ -18,6 +19,7 @@
   padding: 5px;
   height: 36px;
   border-radius: 20px;
+  box-shadow: 0 4px 3px -3px #555;
   outline: none;
   color: #999;
 }
@@ -36,6 +38,7 @@
   text-align: center;
   color: #fff;
   border-radius: 20px;
+  box-shadow: 0 4px 3px -3px #222;
   cursor: pointer;
   font-size: 20px;
 }
@@ -52,13 +55,15 @@
 body{
   background-color: #fff;
   font-family: 'Roboto';
-  width: 415px;
-  padding-left: 10px;
+  max-width: 415px;
+  margin:auto;
 }
 
 ul{
   list-style-type: none;
-  width: 100%;
+  width: 75%;
+  border-top: 3px;
+  border-bottom: 3px;
 }
 
 
@@ -68,19 +73,13 @@ h1{
   color: #555;
   letter-spacing: -2.41%;
   text-align: center;
-  padding-bottom: 20px;
+  padding-top: 80px;
+  padding-bottom: 40px;
 }
 
 h2{
  color:#444;
  font-weight:normal;
- padding-top: 20px;
-}
-
-h3{
-  font-size: 18px;
-  font-weight:400;
-  color: #000;
 }
 
 p {
@@ -94,10 +93,12 @@ p {
 
 .numberCircle {
   border-radius: 50%;
-  border-top-style: ;
   width: 45px;
   height: 45px;
-  padding: 12px;
+  padding-top: 13px;
+  padding-right: 3px;
+  padding-left: 3px;
+  padding-bottom: 3px;
   background: #999;
   color: #fff;
   display:inline-block;
@@ -108,8 +109,11 @@ p {
 
 .block {
   background: #fff;
-  height: 75px;
-  padding-bottom: 20px;
+  height: 100px;
+  width: 415px;
+  border-bottom-style: solid;
+  border-width: thin;
+  border-color: #777;
 }
 
 .block:before {
@@ -120,22 +124,41 @@ p {
 }
 
 .direction {
-  padding-bottom: 20px;
+  padding-top:30px;
+  padding-bottom: 5px;
+  border-bottom-style: solid;
+  border-width: thin;
+  border-color: #777;
+
 }
 
 .route{
   display: inline-block;
   vertical-align: middle;
   width: 190px;
-  padding: 3px 5px;
+  padding-left: 3px;
+  font-weight:bold;
+  font-size: 16px;
+  color: #555;
 }
 
 .frequency{
-  display: inline-block;
-  vertical-align: middle;
-  padding: 5px 25px;
+  display:inline-block;
+  vertical-align: text-top;
+  margin-left: -40px;
+  font-weight: lighter;
+  font-size: 12px;
+  font-weight: 200;
 }
 
+.arrival{
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -18px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #444;
+}
 
 .arrow-left {
  position: fixed;
@@ -146,11 +169,10 @@ p {
 }
 
 .arrow-right{
-  display: inline-block;
+  display:inline-block;
+  text-align:right;
   vertical-align: middle;
   float:right;
-  top: 25px;
-  padding-top: 30px;
-  color:#555;
-  width: 10%;
+  margin-top: 30px;
+  color:#777;
 }
