@@ -78,6 +78,11 @@ h1{
 }
 
 h2{
+ padding-top:35px;
+ padding-bottom: 5px;
+ border-bottom-style: solid;
+ border-width: thin;
+ border-color: #777;
  color:#444;
  font-weight:normal;
 }
@@ -123,15 +128,6 @@ p {
   height: 100%;
 }
 
-.direction {
-  padding-top:30px;
-  padding-bottom: 5px;
-  border-bottom-style: solid;
-  border-width: thin;
-  border-color: #777;
-
-}
-
 .route{
   display: inline-block;
   vertical-align: middle;
@@ -154,6 +150,7 @@ p {
 .arrival{
   display: inline-block;
   vertical-align: middle;
+  margin-bottom: 10px;
   font-size: 16px;
   font-weight: 500;
   color: #444;
@@ -172,6 +169,6 @@ p {
   text-align:right;
   vertical-align: middle;
   float:right;
-  margin-top: 30px;
+  margin-top: 35px;
   color:#777;
 }
