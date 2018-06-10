@@ -15,13 +15,13 @@
 .searchTerm {
   float: left;
   width: 90%;
-  border: 2px solid #999;
+  border: 1px solid #999;
   padding: 5px;
   height: 36px;
-  border-radius: 20px;
+  border-radius: 10px;
   box-shadow: 0 4px 3px -3px #555;
   outline: none;
-  color: #999;
+  font-style: italic;
 }
 
 .searchTerm:focus{
@@ -69,12 +69,12 @@ ul{
 
 h1{
   font-weight:bold;
-  font-size: 30px;
+  font-size: 24px;
   color: #555;
   letter-spacing: -2.41%;
   text-align: center;
-  padding-top: 80px;
-  padding-bottom: 40px;
+  padding-top: 90px;
+  padding-bottom: 20px;
 }
 
 h2{
@@ -154,7 +154,6 @@ p {
 .arrival{
   display: inline-block;
   vertical-align: middle;
-  margin-top: -18px;
   font-size: 16px;
   font-weight: 500;
   color: #444;
