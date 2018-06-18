@@ -4,6 +4,7 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
+
 .search {
   width: 90%;
   position: relative;
@@ -78,13 +79,14 @@ h1{
 }
 
 h2{
- padding-top:35px;
+ padding-top:25px;
  padding-bottom: 5px;
  border-bottom-style: solid;
  border-width: thin;
  border-color: #777;
  color:#444;
  font-weight:normal;
+ font-size: 20px;
 }
 
 p {
@@ -92,7 +94,7 @@ p {
   padding-left: 5px;
   font-family: "Roboto";
   font-size: 18px;
-  color:#555;
+  color:#007AFF;
 }
 
 
@@ -104,18 +106,20 @@ p {
   padding-right: 3px;
   padding-left: 3px;
   padding-bottom: 3px;
-  background: #999;
-  color: #fff;
+  background: #C4C4C4;
+  color: #4F4F4F;
   display:inline-block;
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 
 .block {
   background: #fff;
-  height: 100px;
+  height: 75px;
   width: 415px;
+  margin-top: -7px;
   border-bottom-style: solid;
   border-width: thin;
   border-color: #777;
@@ -161,7 +165,7 @@ p {
  display: inline;
  float: left;
  width: 1%;
- color: #777;
+ color: #007AFF;
 }
 
 .arrow-right{
@@ -169,6 +173,6 @@ p {
   text-align:right;
   vertical-align: middle;
   float:right;
-  margin-top: 35px;
+  margin-top: 22px;
   color:#777;
 }
