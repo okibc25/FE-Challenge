@@ -1,14 +1,68 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
-
 
 *, *:before, *:after {
   box-sizing: border-box;
 }
+
+.container {
+  margin: 0 auto;
+  min-width: 250px;
+}
+
+body{
+ background-color: #fff;
+ font-family: 'Roboto';
+ width: 414px;
+ padding-left: 10px;
+}
+
+h1{
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 75px;
+  font-size: 30px;
+  color: #fff;
+}
+
+h2{
+ color:#444;
+ font-weight:normal;
+ padding-top: 20px;
+}
+
+h3{
+  font-size: 18px;
+  font-weight:400;
+  color: #444;
+}
+
+p {
+  display:inline-block;
+  padding-left: 5px;
+  font-family: "Roboto";
+  font-size: 18px;
+  color:#fff;
+}
+
+.hero {
+ background-color: #000000;
+ display: grid;
+ grid-template-columns: repeat(4, [col] auto);
+ grid-template-rows: repeat(2, [col] auto);
+ margin: 0 auto;
+}
+
+.stop {
+ grid-column: 1 / span 4;
+ grid-row: 1;
+ margin: 0 auto;
+}
+
 .search {
-  width: 90%;
-  position: relative;
-  padding-top: 10px;
-  padding-bottom: 50px;
+ grid-column: 1 / span 4;
+ grid-row: 2;
+ position: relative;
+ padding: 10px;
+ width: 90%
 }
 
 .searchTerm {
@@ -42,51 +96,12 @@
 
 /*Resize the wrap to see the search bar change!*/
 .wrap{
-  width: 30%;
+  width: 20%;
   position: absolute;
   top: 30%;
   left: 30%;
   transform: translate(-50%, -50%);
 }
-
-body{
-  background-color: #fff;
-  font-family: 'Roboto';
-  width: 414px;
-  padding-left: 10px;
-
-
-}
-
-h1{
-  text-align: center;
-  padding-top: 80px;
-  padding-bottom: 75px;
-  font-size: 30px;
-  color: #555;
-}
-
-h2{
- color:#444;
- font-weight:normal;
- padding-top: 20px;
-}
-
-h3{
-  font-size: 18px;
-  font-weight:400;
-  color: #000;
-}
-
-p {
-  display:inline-block;
-  padding-left: 5px;
-  font-family: "Roboto";
-  font-size: 18px;
-  color:#555;
-}
-
-
 
 .numberCircle {
   border-radius: 50%;
@@ -95,12 +110,13 @@ p {
   height: 45px;
   padding: 12px;
   padding-left: 9px;
-  background: #999;
-  color: #fff;
+  background: #f9d91e;
+  color: #444;
   display:inline-block;
   text-align: center;
   font-size: 16px;
 }
+
 .block {
   background: #fff;
   height: 75px;
@@ -113,6 +129,7 @@ p {
   vertical-align: middle;
   height: 100%;
 }
+
 .route{
   display: inline-block;
   vertical-align: middle;
@@ -143,4 +160,6 @@ p {
   padding-top: 30px;
   color:#555;
   width: 10%;
+}
+
 }
